@@ -86,6 +86,11 @@
       font-weight: 600;
       margin-inline: 1.125rem;
   }
+  
+  .card .links p:hover{
+    background: var(--green);
+    color: var(--body-bg);
+  }
 
   .attribution { 
       display: none;
