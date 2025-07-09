@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL:](https://github.com/eseodiase/frontend-mentor-social-links-profile-challenge)
-- [Live Site URL:](https://your-live-site-url.com)
+- [Live Site URL:](https://eseodiase.github.io/frontend-mentor-social-links-profile-challenge/)
 
 ## My process
 
