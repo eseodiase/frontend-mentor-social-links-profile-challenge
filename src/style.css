@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('challenge/Inter-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('challenge/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+  :root{
+      --card-width: 21.25rem;
+      --white: hsl(0, 0%, 100%);
+      --green: hsl(75, 94%, 57%);
+      --body-bg: hsl(0, 0%, 8%);
+      --card-height: 36.25rem;
+      --card-bg: hsl(0, 0%, 12%);
+      --figcaption-p: 1.58rem;
+      --card-font: 0.9375rem;
+      --job-font: 0.875rem;
+      --card-link-bg: hsl(0, 0%, 20%);
+  }
+  
+  .html, body{
+      margin: 0;
+      padding: 0;
+      background: var(--body-bg);
+      font-family: 'Inter', sans-serif;
+  }
+  
+  .wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      min-height: 100vh;
+  }
+  
+  .card{
+      text-align: center;
+      color: var(--white);
+      width: var(--card-width);
+      height: var(--card-height);
+      background: var(--card-bg);
+      margin-inline: 1.25rem;
+      margin-block: 1.25rem;
+      border-radius: 20px;
+      padding-inline: 1.25rem;
+      padding-block: 1.25rem;
+      margin-block: 3.75rem;
+  }
+  
+  figure img{
+      height: 6.25rem;
+      width: 6.25rem;
+      border-radius: 50px;
+      margin-block-end: 0.3rem;
+  }
+  
+  figcaption p{
+      font-size: var(--figcaption-p);
+      font-weight: 700;
+      margin-block-end: 0;
+  }
+  
+  .card .city{
+      font-size: var(--card-font);
+      font-weight: 600;
+      color: var(--green);
+      margin-block-start: -0.5rem;
+  }
+  
+  .card .job-title{
+      font-size: var(--job-font);
+      font-weight: 400;
+      margin-block: 1.5625rem;
+  }
+  
+  .card .links p{
+      padding-block: 0.875rem;
+      background: var(--card-link-bg);
+      border-radius: 0.5rem;
+      font-size: var(--card-font);
+      font-weight: 600;
+      margin-inline: 1.125rem;
+  }
+
+  .attribution { 
+      display: none;
+      text-align: center; 
+  }
+
+@media (max-width: 768px) {
+  .card .links p{
+    margin-inline: 0;
+  }
+}
+ 
