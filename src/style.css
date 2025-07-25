@@ -1,14 +1,18 @@
-@font-face {
-  font-family: 'Inter';
-  src: url('challenge/Inter-Bold.ttf') format('truetype');
-  font-weight: 700;
-}
+/* 
+  Author: Ese Odiase
+*/
 
-@font-face {
-  font-family: 'Inter';
-  src: url('challenge/Inter-Regular.ttf') format('truetype');
-  font-weight: 400;
-}
+  @font-face {
+    font-family: 'Inter';
+    src: url('challenge/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('challenge/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+  }
 
   :root{
       --card-width: 21.25rem;
@@ -23,6 +27,7 @@
       --card-link-bg: hsl(0, 0%, 20%);
   }
   
+  /* Desktop first workflow */
   .html, body{
       margin: 0;
       padding: 0;
@@ -78,28 +83,39 @@
       margin-block: 1.5625rem;
   }
   
-  .card .links p{
+  .card .links {
+      margin: 0;
+      padding: 0;
+  }
+  
+  .card .links li {
       padding-block: 0.875rem;
       background: var(--card-link-bg);
       border-radius: 0.5rem;
       font-size: var(--card-font);
       font-weight: 600;
       margin-inline: 1.125rem;
+      margin-block: 12px;
+      list-style-type: none;
+      cursor: pointer;
   }
   
-  .card .links p:hover{
+  .card .links li:hover{
     background: var(--green);
     color: var(--body-bg);
   }
 
-  .attribution { 
+  .attribution, .heading { 
       display: none;
       text-align: center; 
+      color: var(--white);
   }
 
-@media (max-width: 768px) {
-  .card .links p{
+/* Breakpoints for small device */
+@media (max-width: 48rem) {
+  .card .links li{
     margin-inline: 0;
+    cursor: none;
   }
 }
  

@@ -38,10 +38,10 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
+- Accessibility
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow (developed entirely on mobile device)
+- Desktop-first workflow (developed entirely on mobile device)
 
 ### What I learned
 
