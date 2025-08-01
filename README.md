@@ -54,5 +54,5 @@ This was simply an easy and fun project. Not difficult at all!
 
 ## Author
 
+- LinkedIn - [Ese Odiase](https://ng.linkedin.com/in/ese-g-odiase-220576196)
 - Frontend Mentor - [@eseodiase](https://www.frontendmentor.io/profile/eseodiase)
-```

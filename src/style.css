@@ -2,6 +2,7 @@
   Author: Ese Odiase
 */
 
+/* Static font setup */
   @font-face {
     font-family: 'Inter';
     src: url('challenge/Inter-Bold.ttf') format('truetype');
@@ -14,17 +15,20 @@
     font-weight: 400;
   }
 
+/* CSS custom properties */
   :root{
       --card-width: 21.25rem;
+      --card-height: 36.25rem;
+      /* colors */
       --white: hsl(0, 0%, 100%);
       --green: hsl(75, 94%, 57%);
       --body-bg: hsl(0, 0%, 8%);
-      --card-height: 36.25rem;
       --card-bg: hsl(0, 0%, 12%);
-      --figcaption-p: 1.58rem;
-      --card-font: 0.9375rem;
-      --job-font: 0.875rem;
       --card-link-bg: hsl(0, 0%, 20%);
+      /* font sizes */
+      --card-font: 0.9375rem;
+      --figcaption-p: 1.58rem;
+      --job-font: 0.875rem;
   }
   
   /* Desktop first workflow */
