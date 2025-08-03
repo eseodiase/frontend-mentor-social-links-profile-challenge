@@ -49,7 +49,7 @@ This was simply an easy and fun project. Not difficult at all!
 
 ### Useful resources
 
-- [Spck Editor Documentation](https://spck.io/docs) - Essential for mobile development setup
+- [Spck Editor Documentation](https://spck.io/documentation) - Essential for mobile development setup
 - [Screenfly](https://screenfly.org) - Useful for responsive testing without multiple devices
 
 ## Author
